@@ -1,6 +1,6 @@
 pandas
 matplotlib
-sreamlit
+streamlit
 plotly
 numpy
 PIL
