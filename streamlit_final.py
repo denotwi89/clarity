@@ -8,8 +8,8 @@ import seaborn as sns
 import altair as alt
 import plotly.graph_objects as go
 
-path = 'https://github.com/denotwi89/clarity/blob/'
-esgRisk = path + 'portfolios/esgRisk/'
+path = 'https://raw.githubusercontent.com/denotwi89/clarity/'
+esgRisk = path + 'portfolios/portfolios/esgRisk/'
 
 
 def main():
@@ -23,7 +23,7 @@ def main():
 
     @st.cache
     def load_pfs():
-        data = pd.read_csv(path + 'portfolio_names.csv')
+        data = pd.read_csv(path + 'main/portfolio_names.csv')
         return data
 
     ports = load_pfs()
