@@ -8,7 +8,7 @@ import seaborn as sns
 import altair as alt
 import plotly.graph_objects as go
 
-path = 'C:/users/tsingh/PycharmProjects/testNumpy/'
+path = 'https://github.com/denotwi89/clarity/blob/'
 esgRisk = path + 'portfolios/esgRisk/'
 
 
