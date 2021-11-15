@@ -3,7 +3,7 @@ matplotlib
 streamlit
 plotly
 numpy
-PIL
+Pillow
 seaborn
 altair
-plotly.graph_objects
+
