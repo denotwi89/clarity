@@ -1,7 +1,7 @@
 pandas
-matplotlib.pyplot
+matplotlib
 sreamlit
-plotly.express
+plotly
 numpy
 PIL
 seaborn
